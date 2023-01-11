@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Clarity.ViewModel">
+    <Position X="5" Y="14.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAEAAAIAAAkAAAAIQIADAAAA=</HashCode>
+      <FileName>ViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Clarity.Disposable">
+    <Position X="11" Y="0.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QAAAABAAACAAAAAAAAAAABQIAAAAAAAAAAIAAABAAAA=</HashCode>
+      <FileName>Disposable.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Clarity.Model">
+    <Position X="8" Y="11" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAgAAAIAAAiAAQAAKAkgAAAAABAAACQIAAAAAAACAAA=</HashCode>
+      <FileName>Model.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Clarity.PropertyChangedBase">
+    <Position X="7.75" Y="4.5" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ABQAgAAAACAAgoAA4AAAAABAgAAAADBAgAAEIEAAAEI=</HashCode>
+      <FileName>PropertyChangedBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Clarity.TrackingModel">
+    <Position X="7.5" Y="16.25" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>JAIAIAACSmgEAQgQIAIokEAEEgYQADAEAAAgqAQgAEA=</HashCode>
+      <FileName>TrackingModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Clarity.ViewModel">
+    <Position X="4.75" Y="11" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAKAAAEAAAAAAEAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Clarity.Commands.DelegateCommand&lt;T&gt;">
+    <Position X="1.5" Y="4.5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAGICAAQAAEGAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\DelegateCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Clarity.Internal.CollectionObserver">
+    <Position X="14.25" Y="4.5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAAgAAACAAAEAAAAAAAAAAAAAAABAAAAAAEAAAAAI=</HashCode>
+      <FileName>Internal\CollectionObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Clarity.Internal.Initializer">
+    <Position X="17.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Internal\Initializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Clarity.Internal.PropertyObserver">
+    <Position X="19.75" Y="4.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AFAAgAAAACAAAAgCQQAAAAAAQAAAAABAAAAAAAQggAA=</HashCode>
+      <FileName>Internal\PropertyObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Clarity.Commands.SimpleCommand">
+    <Position X="11" Y="11" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAGICAAQAAEGAAARAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\SimpleCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

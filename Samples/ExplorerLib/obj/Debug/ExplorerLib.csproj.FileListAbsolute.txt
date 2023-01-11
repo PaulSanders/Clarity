@@ -1,0 +1,9 @@
+C:\code\clarity\Samples\ExplorerLib\bin\Debug\ExplorerLib.dll
+C:\code\clarity\Samples\ExplorerLib\bin\Debug\ExplorerLib.pdb
+C:\code\clarity\Samples\ExplorerLib\bin\Debug\Clarity.dll
+C:\code\clarity\Samples\ExplorerLib\bin\Debug\Clarity.pdb
+C:\code\clarity\Samples\ExplorerLib\obj\Debug\ExplorerLib.csproj.AssemblyReference.cache
+C:\code\clarity\Samples\ExplorerLib\obj\Debug\ExplorerLib.csproj.CoreCompileInputs.cache
+C:\code\clarity\Samples\ExplorerLib\obj\Debug\ExplorerLib.csproj.CopyComplete
+C:\code\clarity\Samples\ExplorerLib\obj\Debug\ExplorerLib.dll
+C:\code\clarity\Samples\ExplorerLib\obj\Debug\ExplorerLib.pdb

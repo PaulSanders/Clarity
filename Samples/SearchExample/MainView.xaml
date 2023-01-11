@@ -1,0 +1,38 @@
+﻿<UserControl x:Class="SearchExample.MainView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SearchExample"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <UserControl.Resources>
+        <DataTemplate x:Key="resultTemplate">
+            <TextBlock>
+                    <Run Text="{Binding Path=City}" />
+                    <Run Text=", " />
+                    <Run Text="{Binding Path=Country}" />
+            </TextBlock>
+        </DataTemplate>
+    </UserControl.Resources>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <DockPanel LastChildFill="True">
+            <Label Content="Country" />
+            <TextBox Text="{VBinding Path=SearchText}" HorizontalAlignment="Stretch" Margin="0,0,5,0"/>
+        </DockPanel>
+        <ListBox ItemsSource="{Binding Path=SearchResults}" Grid.Row="1" Margin="5" ItemTemplate="{StaticResource resultTemplate}" SelectedItem="{Binding Path=SelectedItem}" IsSynchronizedWithCurrentItem="True"/>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="2" HorizontalAlignment="Center">
+            <Button Content="Get Weather" Command="{CBinding Path=GetWeatherCommand}" MinWidth="100"/>
+            <Button Content="Close" Command="{CBinding Path=CloseCommand}" MinWidth="100" Margin="5,0,0,0"/>
+        </StackPanel>
+        
+        <Label Content="Searching..." HorizontalAlignment="Center" VerticalAlignment="Center" Grid.RowSpan="3" Background="DarkOrange" Padding="20" FontSize="18" VisibilityHelper.IsVisible="{Binding Path=Searching}" />
+    </Grid>
+</UserControl>

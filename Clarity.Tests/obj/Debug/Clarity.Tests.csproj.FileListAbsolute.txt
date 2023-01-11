@@ -1,0 +1,13 @@
+C:\code\clarity\Clarity.Tests\bin\Debug\Clarity.Tests.dll
+C:\code\clarity\Clarity.Tests\bin\Debug\Clarity.Tests.pdb
+C:\code\clarity\Clarity.Tests\bin\Debug\Clarity.dll
+C:\code\clarity\Clarity.Tests\bin\Debug\NSubstitute.dll
+C:\code\clarity\Clarity.Tests\bin\Debug\nunit.framework.dll
+C:\code\clarity\Clarity.Tests\bin\Debug\Clarity.pdb
+C:\code\clarity\Clarity.Tests\bin\Debug\NSubstitute.xml
+C:\code\clarity\Clarity.Tests\bin\Debug\nunit.framework.xml
+C:\code\clarity\Clarity.Tests\obj\Debug\Clarity.Tests.csproj.AssemblyReference.cache
+C:\code\clarity\Clarity.Tests\obj\Debug\Clarity.Tests.csproj.CoreCompileInputs.cache
+C:\code\clarity\Clarity.Tests\obj\Debug\Clarity.Tests.csproj.CopyComplete
+C:\code\clarity\Clarity.Tests\obj\Debug\Clarity.Tests.dll
+C:\code\clarity\Clarity.Tests\obj\Debug\Clarity.Tests.pdb

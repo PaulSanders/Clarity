@@ -1,0 +1,6 @@
+C:\code\clarity\Clarity\bin\Debug\Clarity.dll
+C:\code\clarity\Clarity\bin\Debug\Clarity.pdb
+C:\code\clarity\Clarity\obj\Debug\Clarity.csproj.AssemblyReference.cache
+C:\code\clarity\Clarity\obj\Debug\Clarity.csproj.CoreCompileInputs.cache
+C:\code\clarity\Clarity\obj\Debug\Clarity.dll
+C:\code\clarity\Clarity\obj\Debug\Clarity.pdb

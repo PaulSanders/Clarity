@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0FB3337D-2347-4531-A697-F94268908336}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Clarity</RootNamespace>
+    <AssemblyName>Clarity</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bootstrapper.cs" />
+    <Compile Include="Commands\DefaultCommandBuilder.cs" />
+    <Compile Include="Commands\DelegateAsyncCommand.cs" />
+    <Compile Include="Commands\DelegateCommand.cs" />
+    <Compile Include="Commands\IClarityCommand.cs" />
+    <Compile Include="Commands\ICommandBuilder.cs" />
+    <Compile Include="Commands\SimpleAsyncCommand.cs" />
+    <Compile Include="Commands\SimpleCommand.cs" />
+    <Compile Include="DefaultViewLocator.cs" />
+    <Compile Include="Disposable.cs" />
+    <Compile Include="Execute.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="IClosable.cs" />
+    <Compile Include="IDisposed.cs" />
+    <Compile Include="ILog.cs" />
+    <Compile Include="IMessageBus.cs" />
+    <Compile Include="Internal\ActionInfo.cs" />
+    <Compile Include="Internal\WeakAction.cs" />
+    <Compile Include="Internal\CollectionObserver.cs" />
+    <Compile Include="Internal\Initializer.cs" />
+    <Compile Include="Internal\PropertyObserver.cs" />
+    <Compile Include="Internal\ServiceInfo.cs" />
+    <Compile Include="IServiceManager.cs" />
+    <Compile Include="IViewLocator.cs" />
+    <Compile Include="IWindow.cs" />
+    <Compile Include="IWindowCollectionView.cs" />
+    <Compile Include="IWindowManager.cs" />
+    <Compile Include="Logger.cs" />
+    <Compile Include="MessageBus.cs" />
+    <Compile Include="Observation.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PropertyChangedBase.cs" />
+    <Compile Include="ServiceManager.cs" />
+    <Compile Include="SingleWindowManager.cs" />
+    <Compile Include="TrackingViewModel.cs" />
+    <Compile Include="ValidationResults.cs" />
+    <Compile Include="ViewModel.cs" />
+    <Compile Include="WindowResult.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="license.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Clarity.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

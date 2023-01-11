@@ -1,0 +1,6 @@
+C:\code\clarity\CodeGenDataSource\bin\Debug\CodeGenDataSource.dll
+C:\code\clarity\CodeGenDataSource\bin\Debug\CodeGenDataSource.pdb
+C:\code\clarity\CodeGenDataSource\obj\Debug\CodeGenDataSource.csproj.AssemblyReference.cache
+C:\code\clarity\CodeGenDataSource\obj\Debug\CodeGenDataSource.csproj.CoreCompileInputs.cache
+C:\code\clarity\CodeGenDataSource\obj\Debug\CodeGenDataSource.dll
+C:\code\clarity\CodeGenDataSource\obj\Debug\CodeGenDataSource.pdb

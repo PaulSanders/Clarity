@@ -1,0 +1,10 @@
+C:\code\clarity\CodeGenTest\obj\Debug\CodeGenTest.csproj.AssemblyReference.cache
+C:\code\clarity\CodeGenTest\obj\Debug\CodeGenTest.csproj.CoreCompileInputs.cache
+C:\code\clarity\CodeGenTest\bin\Debug\CodeGenTest.exe.config
+C:\code\clarity\CodeGenTest\bin\Debug\CodeGenTest.exe
+C:\code\clarity\CodeGenTest\bin\Debug\CodeGenTest.pdb
+C:\code\clarity\CodeGenTest\bin\Debug\CodeGenDataSource.dll
+C:\code\clarity\CodeGenTest\bin\Debug\CodeGenDataSource.pdb
+C:\code\clarity\CodeGenTest\obj\Debug\CodeGenTest.csproj.CopyComplete
+C:\code\clarity\CodeGenTest\obj\Debug\CodeGenTest.exe
+C:\code\clarity\CodeGenTest\obj\Debug\CodeGenTest.pdb

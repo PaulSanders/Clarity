@@ -1,0 +1,32 @@
+﻿<UserControl x:Class="CustomerBrowser.Dashboard.DashboardView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="350" d:DesignWidth="360">
+    
+    <Grid Margin="5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <ToggleButton Content="{Binding Path=EditTypeText}" IsChecked="{Binding Path=EditCustomersInNewWindow}" FontSize="24" Margin="5"/>
+        <ListView Grid.Row="1" ItemsSource="{Binding Path=Customers}" SelectedItem="{Binding Path=SelectedCustomer}" IsSynchronizedWithCurrentItem="True" Margin="5">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="First name" DisplayMemberBinding="{Binding Path=FirstName}" Width="120"/>
+                    <GridViewColumn Header="Last name" DisplayMemberBinding="{Binding Path=LastName}" Width="220"/>
+                </GridView>
+                
+            </ListView.View>
+        </ListView>
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right">            
+            <Button Content="Add Customer" Command="{CBinding Path=AddCustomer}" />
+            <Button Content="Edit Customer" Command="{CBinding Path=EditCustomer}" Margin="5,0" />
+            <Button Content="Delete Customer" Command="{CBinding Path=DeleteCustomer}" />
+            <Button Content="Close" Command="{CBinding Path=CloseCommand}" IsCancel="True" Margin="5,0,0,0"/>
+        </StackPanel>
+    </Grid>
+</UserControl>
