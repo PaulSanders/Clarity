@@ -1,5 +1,5 @@
 # Clarity
-This is the original library I published on CodePlex back in 2014. The original code can be found via http://archive.org/. Specifically [here](http://https://web.archive.org/web/20180424030009/https://archive.codeplex.com/?p=clarity "Archive of Clarity on CodePlex")
+This is the original library I published on CodePlex back in 2014. The original code can be found via http://archive.org/. Specifically [here](https://web.archive.org/web/20230000000000*/clarity.codeplex.com) "Archive of Clarity on CodePlex")
 
 Note that only basic WinForms support was achieved at the time.
 
