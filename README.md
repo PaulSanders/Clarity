@@ -39,7 +39,7 @@ These are all legacy and have not been tested since migration from CodePlex.
 
 - FileExplorer. Very basic sample with a single library holding filesystem objects. Separate WPF and Winforms implementation use that for binding
 - CustomerBrowser. Sample demonstrates ability to switch between windows and tabbed approach to managing customers by making use of MessageBus
-- SearchExample. Legacy application to get weather information about a particular country. The public service has been continued. TODO: Re-write to use https://open-meteo.com/
+- SearchExample. Legacy application to get weather information about a particular country. The public service has been discontinued. TODO: Re-write to use https://open-meteo.com/
 - SimpleEditor. Shows how to use change tracking to manage state change
 - WinformsEarningsCalculator. Example showing Winforms binding.
 
