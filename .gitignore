@@ -49,3 +49,4 @@ sv/
 zh-Hans/
 *.override
 [Bb]uild/**
+.vs/Clarity/v16/.suo
