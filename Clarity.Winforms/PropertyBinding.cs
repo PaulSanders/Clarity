@@ -91,7 +91,7 @@ namespace Clarity.Winforms
                     try
                     {
                         var binding = view.BindControlProperty(ctrl, pi.ViewModelProperty, pi.Format);
-                        if (!string.IsNullOrEmpty(pi.Format))
+                        if (binding!= null && !string.IsNullOrEmpty(pi.Format))
                         {
                             binding.FormattingEnabled = true;
                             binding.FormatString = pi.Format;
